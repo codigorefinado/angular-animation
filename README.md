@@ -3,7 +3,16 @@
 ng new angular-animation --ng4 --directory=. --routing=true
 
 npm install --save @angular/animations
+verificar a versão do animations se está igual as outras dependências do angular, se não estiver, deixar igual
 
+npm install --save-dev @angular/language-service
+
+
+importe BrowserAnimationsModule no AppModule
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+
+https://github.com/angular/angular/blob/master/CHANGELOG.md#installing-rc1
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.4.

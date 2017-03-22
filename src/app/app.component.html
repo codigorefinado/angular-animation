@@ -1,4 +1,18 @@
 <h1>
   {{title}}
 </h1>
+
+
+<div class="row">
+
+  <div class="col-md-6">
+    <button (click)="toggleMove()">Pressione para ver a animação</button>
+  </div>
+
+  <div class="col-md-6">
+    <div id="content" [@focusPanel]='state'>Olhe aqui para vere a animação</div>
+  </div>
+
+</div>
+
 <router-outlet></router-outlet>

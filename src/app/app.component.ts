@@ -1,8 +1,7 @@
+import { animate, state, style, transition, trigger } from '@angular/animations';
 import { Component } from '@angular/core';
 // No Angular 2 o import era no core
 //import {trigger, state, style, transition } from '@angular/core';
-
-import { trigger, state, style, transition, animate, keyframes } from '@angular/animations';
 
 @Component({
   selector: 'app-root',

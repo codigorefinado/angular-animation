@@ -1,7 +1,7 @@
 import { animate, state, style, transition, trigger } from '@angular/animations';
 import { Component } from '@angular/core';
 // No Angular 2 o import era no core
-//import {trigger, state, style, transition } from '@angular/core';
+// import {trigger, state, style, transition } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -33,7 +33,7 @@ import { Component } from '@angular/core';
     // ])
 
 
-    //multi step animation
+    // multi step animation
     // trigger('movePanel', [
     //   transition('void => *', [
     //     animate(600, keyframes([
@@ -50,7 +50,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app works!';
 
-  state: string = 'inactive';
+  state = 'inactive';
 
   toggleMove(): void {
     this.state = (this.state === 'inactive' ? 'active' : 'inactive');

@@ -8,7 +8,7 @@ verificar a versão do animations se está igual as outras dependências do angu
 npm install --save-dev @angular/language-service
 
 
-importe BrowserAnimationsModule no AppModule
+importe BrowserAnimationsModule no AppModule assim:
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 

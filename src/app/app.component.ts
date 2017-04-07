@@ -30,8 +30,13 @@ import { Component } from '@angular/core';
     //     style({ transform: 'translateY(-100%)' }),
     //     animate(9000)
     //   ])
-    // ])
+    // ]),
 
+    // trigger('movePanel', [
+    //   transition('void => *', [
+    //     style({ transform: 'translateX(-100%)' }),
+    //     animate(9999)
+    //   ])
 
     // multi step animation
     // trigger('movePanel', [
